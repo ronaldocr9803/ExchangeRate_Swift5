@@ -1,0 +1,6 @@
+framework module Pods_TyGiaAPI {
+  umbrella header "Pods-TyGiaAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

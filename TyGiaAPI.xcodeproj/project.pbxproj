@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B113A82432D9690045AB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113A72432D9690045AB88 /* AppDelegate.swift */; };
+		18B113AA2432D9690045AB88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113A92432D9690045AB88 /* SceneDelegate.swift */; };
+		18B113AC2432D9690045AB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113AB2432D9690045AB88 /* ViewController.swift */; };
+		18B113AF2432D9690045AB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B113AD2432D9690045AB88 /* Main.storyboard */; };
+		18B113B12432D96D0045AB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B113B02432D96D0045AB88 /* Assets.xcassets */; };
+		18B113B42432D96D0045AB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B113B22432D96D0045AB88 /* LaunchScreen.storyboard */; };
+		18B113BD2432DC890045AB88 /* ExchangeRateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113BB2432DC890045AB88 /* ExchangeRateTableViewCell.swift */; };
+		18B113BE2432DC890045AB88 /* ExchangeRateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B113BC2432DC890045AB88 /* ExchangeRateTableViewCell.xib */; };
+		18B113C12432F0410045AB88 /* ExchangeRateHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113BF2432F0410045AB88 /* ExchangeRateHeaderTableViewCell.swift */; };
+		18B113C22432F0410045AB88 /* ExchangeRateHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B113C02432F0410045AB88 /* ExchangeRateHeaderTableViewCell.xib */; };
+		18B113C42432F65D0045AB88 /* ExchangeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113C32432F65D0045AB88 /* ExchangeData.swift */; };
+		18B113C6243334D30045AB88 /* ExchangeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113C5243334D30045AB88 /* ExchangeManager.swift */; };
+		18B113C8243335F50045AB88 /* ExchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B113C7243335F50045AB88 /* ExchangeModel.swift */; };
+		DF552B4D21998BA9B55FD18C /* Pods_TyGiaAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DF592B9B599357FD447093 /* Pods_TyGiaAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B113A42432D9690045AB88 /* TyGiaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyGiaAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B113A72432D9690045AB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B113A92432D9690045AB88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18B113AB2432D9690045AB88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18B113AE2432D9690045AB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B113B02432D96D0045AB88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B113B32432D96D0045AB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B113B52432D96D0045AB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B113BB2432DC890045AB88 /* ExchangeRateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateTableViewCell.swift; sourceTree = "<group>"; };
+		18B113BC2432DC890045AB88 /* ExchangeRateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeRateTableViewCell.xib; sourceTree = "<group>"; };
+		18B113BF2432F0410045AB88 /* ExchangeRateHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		18B113C02432F0410045AB88 /* ExchangeRateHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeRateHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		18B113C32432F65D0045AB88 /* ExchangeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeData.swift; sourceTree = "<group>"; };
+		18B113C5243334D30045AB88 /* ExchangeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeManager.swift; sourceTree = "<group>"; };
+		18B113C7243335F50045AB88 /* ExchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeModel.swift; sourceTree = "<group>"; };
+		52DF592B9B599357FD447093 /* Pods_TyGiaAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyGiaAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		735D265E84746032985D4AF1 /* Pods-TyGiaAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyGiaAPI.release.xcconfig"; path = "Target Support Files/Pods-TyGiaAPI/Pods-TyGiaAPI.release.xcconfig"; sourceTree = "<group>"; };
+		BDD955BC63D87E2756F72A30 /* Pods-TyGiaAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyGiaAPI.debug.xcconfig"; path = "Target Support Files/Pods-TyGiaAPI/Pods-TyGiaAPI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B113A12432D9690045AB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF552B4D21998BA9B55FD18C /* Pods_TyGiaAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B1139B2432D9690045AB88 = {
+			isa = PBXGroup;
+			children = (
+				18B113A62432D9690045AB88 /* TyGiaAPI */,
+				18B113A52432D9690045AB88 /* Products */,
+				D6C8BF20CA2B396700D21F74 /* Pods */,
+				1EBFDD18C63E995606BDC995 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18B113A52432D9690045AB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B113A42432D9690045AB88 /* TyGiaAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B113A62432D9690045AB88 /* TyGiaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				18B113A72432D9690045AB88 /* AppDelegate.swift */,
+				18B113A92432D9690045AB88 /* SceneDelegate.swift */,
+				18B113AB2432D9690045AB88 /* ViewController.swift */,
+				18B113AD2432D9690045AB88 /* Main.storyboard */,
+				18B113BB2432DC890045AB88 /* ExchangeRateTableViewCell.swift */,
+				18B113BF2432F0410045AB88 /* ExchangeRateHeaderTableViewCell.swift */,
+				18B113C32432F65D0045AB88 /* ExchangeData.swift */,
+				18B113C7243335F50045AB88 /* ExchangeModel.swift */,
+				18B113C5243334D30045AB88 /* ExchangeManager.swift */,
+				18B113C02432F0410045AB88 /* ExchangeRateHeaderTableViewCell.xib */,
+				18B113BC2432DC890045AB88 /* ExchangeRateTableViewCell.xib */,
+				18B113B02432D96D0045AB88 /* Assets.xcassets */,
+				18B113B22432D96D0045AB88 /* LaunchScreen.storyboard */,
+				18B113B52432D96D0045AB88 /* Info.plist */,
+			);
+			path = TyGiaAPI;
+			sourceTree = "<group>";
+		};
+		1EBFDD18C63E995606BDC995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DF592B9B599357FD447093 /* Pods_TyGiaAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C8BF20CA2B396700D21F74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDD955BC63D87E2756F72A30 /* Pods-TyGiaAPI.debug.xcconfig */,
+				735D265E84746032985D4AF1 /* Pods-TyGiaAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B113A32432D9690045AB88 /* TyGiaAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B113B82432D96D0045AB88 /* Build configuration list for PBXNativeTarget "TyGiaAPI" */;
+			buildPhases = (
+				EA7083AB1190CA3993307AEC /* [CP] Check Pods Manifest.lock */,
+				18B113A02432D9690045AB88 /* Sources */,
+				18B113A12432D9690045AB88 /* Frameworks */,
+				18B113A22432D9690045AB88 /* Resources */,
+				56DC0EAB6F3608276B180CC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyGiaAPI;
+			productName = TyGiaAPI;
+			productReference = 18B113A42432D9690045AB88 /* TyGiaAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B1139C2432D9690045AB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = APPLE;
+				TargetAttributes = {
+					18B113A32432D9690045AB88 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18B1139F2432D9690045AB88 /* Build configuration list for PBXProject "TyGiaAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B1139B2432D9690045AB88;
+			productRefGroup = 18B113A52432D9690045AB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B113A32432D9690045AB88 /* TyGiaAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B113A22432D9690045AB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B113C22432F0410045AB88 /* ExchangeRateHeaderTableViewCell.xib in Resources */,
+				18B113BE2432DC890045AB88 /* ExchangeRateTableViewCell.xib in Resources */,
+				18B113B42432D96D0045AB88 /* LaunchScreen.storyboard in Resources */,
+				18B113B12432D96D0045AB88 /* Assets.xcassets in Resources */,
+				18B113AF2432D9690045AB88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56DC0EAB6F3608276B180CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyGiaAPI/Pods-TyGiaAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TyGiaAPI/Pods-TyGiaAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TyGiaAPI/Pods-TyGiaAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7083AB1190CA3993307AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TyGiaAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B113A02432D9690045AB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B113C42432F65D0045AB88 /* ExchangeData.swift in Sources */,
+				18B113BD2432DC890045AB88 /* ExchangeRateTableViewCell.swift in Sources */,
+				18B113C8243335F50045AB88 /* ExchangeModel.swift in Sources */,
+				18B113C6243334D30045AB88 /* ExchangeManager.swift in Sources */,
+				18B113AC2432D9690045AB88 /* ViewController.swift in Sources */,
+				18B113A82432D9690045AB88 /* AppDelegate.swift in Sources */,
+				18B113AA2432D9690045AB88 /* SceneDelegate.swift in Sources */,
+				18B113C12432F0410045AB88 /* ExchangeRateHeaderTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B113AD2432D9690045AB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B113AE2432D9690045AB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B113B22432D96D0045AB88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B113B32432D96D0045AB88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B113B62432D96D0045AB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B113B72432D96D0045AB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B113B92432D96D0045AB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD955BC63D87E2756F72A30 /* Pods-TyGiaAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TyGiaAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thang.TyGiaAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B113BA2432D96D0045AB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735D265E84746032985D4AF1 /* Pods-TyGiaAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TyGiaAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thang.TyGiaAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B1139F2432D9690045AB88 /* Build configuration list for PBXProject "TyGiaAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B113B62432D96D0045AB88 /* Debug */,
+				18B113B72432D96D0045AB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B113B82432D96D0045AB88 /* Build configuration list for PBXNativeTarget "TyGiaAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B113B92432D96D0045AB88 /* Debug */,
+				18B113BA2432D96D0045AB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B1139C2432D9690045AB88 /* Project object */;
+}
